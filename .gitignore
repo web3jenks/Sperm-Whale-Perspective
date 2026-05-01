@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv
+uv.lock.bak
+
+# OS
+.DS_Store
+
+# Raw data — do not commit (large; reproducible from documented sources)
+data/raw/**
+!data/raw/.gitkeep
+!data/raw/*/
+
+# IDE
+.vscode/
+.idea/
